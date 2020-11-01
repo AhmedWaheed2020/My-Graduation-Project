@@ -22,7 +22,7 @@ int main(void)
 {
 	SPI_Slave_Init();
 	LED_init();
-	//servo_init();
+	Servo_Init();
 	
 	uint8 messageID;
 	uint8 Rx =0 ;
